@@ -72,6 +72,9 @@ function keyPressed() {
     if (value > 0 && value <= 9) {
       grid.fill(fillingI, fillingJ, value);
     }
+    if (value === -40) {
+      grid.fill(fillingI, fillingJ, 0);
+    }
   }
 }
 
